@@ -1,6 +1,13 @@
-/.vscode
-/.node_modules
-/.dist
+# Don't format VSCode settings
+.vscode/
 
+# Skip dependencies
+node_modules/
 
+# Skip build outputs
+dist/
+build/
+
+# Skip env files
 *.env
+.env.*
